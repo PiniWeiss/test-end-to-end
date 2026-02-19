@@ -1,0 +1,23 @@
+.row-animate {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.row-animate:hover {
+  background-color: #f1f8ff;
+  transform: scale(1.01);
+}
+
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(231, 76, 60, 0.4); }
+  70% { box-shadow: 0 0 0 10px rgba(231, 76, 60, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(231, 76, 60, 0); }
+}
+
+
+.summary-cell {
+  font-size: 0.85rem;
+  color: #666;
+  max-width: 300px;
+}

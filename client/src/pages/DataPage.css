@@ -1,0 +1,26 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+
+}
+
+thead {
+  background-color: gray;
+  color: white;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+tr:nth-child(even) {
+  background-color: lch(81.78% 10.29 174.32);
+}
+tr:nth-child(add) {
+  background-color: #b3a2a2;
+}

@@ -1,0 +1,25 @@
+#search-area {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  align-items: flex-end;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+#search-area input, #search-area  {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+#search-area input:focus {
+  border-color: var(--accent-blue);
+}
+
+
