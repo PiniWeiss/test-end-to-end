@@ -1,8 +1,8 @@
 import "./SearchArea.css";
 
-function SearchArea({ setSearchPlace, setMinYEar }) {
+function SearchArea({ setSearchPlace, setMinYear }) {
   const searchByPlace = (e) => setSearchPlace(e.target.value);
-  const searchByYear = (e) => setMinYEar(+e.target.value);
+  const searchByYear = (e) => setMinYear(+e.target.value);
 
   return (
     <div id="search-area">
